@@ -288,13 +288,9 @@
   ],
   "pending": [],
   "returns": {
-    "daoV3Impl": {
-      "internal_type": "contract NounsDAOLogicV3",
-      "value": "0xFda5232c947EA7F686826dE3ba782cA2f86844db"
-    },
-    "forkDeployer": {
-      "internal_type": "contract ForkDAODeployer",
-      "value": "0x665d100Bfa43f4E3EabA649b2163e9075807840C"
+    "forkEscrow": {
+      "internal_type": "contract NounsDAOForkEscrow",
+      "value": "0x47939f28bA00E7D98C98768B3Df4FD87652B9E1D"
     },
     "timelockV2": {
       "internal_type": "contract NounsDAOExecutorV2",
@@ -304,12 +300,16 @@
       "internal_type": "contract ERC20Transferer",
       "value": "0xaf7A2d574897D9fE3D3468071358bAE9F8cca301"
     },
-    "forkEscrow": {
-      "internal_type": "contract NounsDAOForkEscrow",
-      "value": "0x47939f28bA00E7D98C98768B3Df4FD87652B9E1D"
+    "forkDeployer": {
+      "internal_type": "contract ForkDAODeployer",
+      "value": "0x665d100Bfa43f4E3EabA649b2163e9075807840C"
+    },
+    "daoV3Impl": {
+      "internal_type": "contract NounsDAOLogicV3",
+      "value": "0xFda5232c947EA7F686826dE3ba782cA2f86844db"
     }
   },
-  "timestamp": 1694632232,
+  "timestamp": 1694631266,
   "chain": 1,
   "multi": false,
   "commit": "2f594ea4"
